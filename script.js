@@ -8,7 +8,7 @@
    INSTAGRAM:  endereço completo do perfil.
    ========================================================== */
 const CONFIG = {
-  SHEETS_URL: "",
+  SHEETS_URL: "https://script.google.com/macros/s/AKfycbyLhJAg-eNUxiLuehetlg79OA0cuDxh8G2NLlHLAMKL2vz56QZxfPs98-plrtSrZFSu/exec",
   WHATSAPP: "",
   INSTAGRAM: ""
 };
