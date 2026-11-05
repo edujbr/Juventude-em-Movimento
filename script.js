@@ -9,7 +9,7 @@
    ========================================================== */
 const CONFIG = {
   SHEETS_URL: "https://script.google.com/macros/s/AKfycbyLhJAg-eNUxiLuehetlg79OA0cuDxh8G2NLlHLAMKL2vz56QZxfPs98-plrtSrZFSu/exec",
-  WHATSAPP: "",
+  WHATSAPP: "5565981697171",
   INSTAGRAM: ""
 };
 
@@ -61,7 +61,7 @@ const CONFIG = {
     else { a.classList.add("pending"); a.title = "Em breve"; a.addEventListener("click", (e) => e.preventDefault()); }
   };
   setLink(document.getElementById("link-instagram"), CONFIG.INSTAGRAM);
-  setLink(document.getElementById("link-whatsapp"), CONFIG.WHATSAPP ? "https://wa.me/" + CONFIG.WHATSAPP.replace(/\D/g, "") : "");
+  setLink(document.getElementById("link-whatsapp"), CONFIG.WHATSAPP ? "https://wa.me/" + CONFIG.WHATSAPP.replace(/\D/g, "") + "?text=" + encodeURIComponent("Olá, Eduardo! Vi o site do Juventude em Movimento e quero saber mais.") : "");
 
   /* ---------- Lista de interessados ---------- */
   const form = document.getElementById("form-interesse");
